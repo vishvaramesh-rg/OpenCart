@@ -14,7 +14,7 @@ public class AddtoCartPage extends BasePage {
 	@FindBy(xpath="//div[@id='content']//div[1]//div[1]//div[2]//div[2]//button[1]")   WebElement btn_addToCart;
 	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")   WebElement div_alert_loc;
 	@FindBy(xpath="//div[@id='cart']//button") WebElement btn_cart_loc;
-	@FindBy(xpath="//strong[normalize-space()='Checkout']")   WebElement btn_checkout_loc;
+	@FindBy(xpath="//strong[normalize-space()='Checkout']//parent::a")   WebElement btn_checkout_loc;
 	@FindBy(xpath="//h1[contains(text(),'Shopping Cart')]") WebElement h1_shoppingCart_loc;
 	
 	//action

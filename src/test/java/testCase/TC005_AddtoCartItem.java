@@ -13,7 +13,7 @@ public class TC005_AddtoCartItem extends BaseClass {
 	SearchPage sp;
 	AddtoCartPage atc;
 	
-	@Test(priority = 1,groups = {"regression"})
+	@Test(priority = 1,groups = {"sanity"})
 	public void VerifyAddtoCart() throws AWTException, IOException {
 
 		try {

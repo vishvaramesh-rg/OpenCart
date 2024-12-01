@@ -19,7 +19,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							<!--<suiteXmlFile>mastersuite.xml</suiteXmlFile>-->
-							<suiteXmlFile>A13_Login.xml</suiteXmlFile>
+							<suiteXmlFile>master.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>

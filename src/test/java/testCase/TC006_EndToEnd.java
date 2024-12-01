@@ -21,7 +21,7 @@ public class TC006_EndToEnd extends BaseClass {
 	AddtoCartPage atc;
 	ShoppingCart spc;
 	
-	@Test(priority = 1,groups = {"master"})
+	@Test(priority = 1,groups = {"master","master"})
 	public void VerifyEndToEnd() throws AWTException, IOException {
 		
 		try {

@@ -1,0 +1,45 @@
+21:10:36.481 [main] INFO  testCase.TC005_AddtoCartItem - ***TC005_AddtoCartItem - started***
+21:10:39.071 [main] INFO  testCase.TC005_AddtoCartItem - ***TC005_AddtoCartItem - ended***
+21:12:13.203 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+21:12:13.244 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+21:12:28.073 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:12:45.616 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:12:48.169 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:12:48.171 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:13:05.429 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:13:08.071 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:13:09.208 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+21:13:09.245 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+21:13:11.145 [main] INFO  testCase.TC005_AddtoCartItem - ***TC005_AddtoCartItem - started***
+21:13:13.861 [main] INFO  testCase.TC005_AddtoCartItem - ***TC005_AddtoCartItem - ended***
+21:13:53.290 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+21:13:53.333 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+21:13:56.706 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:14:14.235 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:14:17.064 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:14:17.066 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:14:34.382 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:14:37.428 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:17:10.632 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+21:17:10.664 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+21:17:12.910 [main] INFO  testCase.TC006_EndToEnd - ***TC006_EndToEnd - started***
+21:17:18.841 [main] INFO  testCase.TC006_EndToEnd - Registered successfully
+21:17:19.200 [main] INFO  testCase.TC006_EndToEnd - logged out successfully
+21:17:22.432 [main] INFO  testCase.TC006_EndToEnd - logged in successfully
+21:17:24.348 [main] INFO  testCase.TC006_EndToEnd - Add to cart happened successfully
+21:17:41.095 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+21:17:41.126 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+21:17:43.873 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:18:01.365 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:18:03.969 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:18:03.971 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:18:21.340 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:18:23.885 [main] INFO  testCase.TC003_LoginTestWithDDTMethod - *** Finished TC_002_VerifyLoginTest ***
+21:35:46.385 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Vishv\eclipse\Selenium with java\OpenCart\test-output\testng-failed.xml
+
+21:35:46.966 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+21:35:47.003 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+21:36:47.613 [main] INFO  testCase.TC005_AddtoCartItem - ***TC005_AddtoCartItem - started***
+21:36:50.399 [main] INFO  testCase.TC005_AddtoCartItem - ***TC005_AddtoCartItem - ended***
+21:38:13.081 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)

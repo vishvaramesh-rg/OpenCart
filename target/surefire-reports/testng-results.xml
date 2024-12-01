@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-01T18:53:17 IST" name="Suite" finished-at="2024-12-01T18:53:27 IST" duration-ms="9914">
+  <suite started-at="2024-12-01T21:39:13 IST" name="Suite" finished-at="2024-12-01T21:40:17 IST" duration-ms="64104">
     <groups>
-      <group name="sanity">
-        <method signature="TC002_LoginTest.VerifyLogin()[pri:1, instance:testCase.TC002_LoginTest@38f116f6]" name="VerifyLogin" class="testCase.TC002_LoginTest"/>
-      </group> <!-- sanity -->
+      <group name="regression">
+        <method signature="TC003_LoginTestWithDDTMethod.LoginWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_LoginTestWithDDTMethod@4602c2a9]" name="LoginWithDDT" class="testCase.TC003_LoginTestWithDDTMethod"/>
+      </group> <!-- regression -->
+      <group name="master">
+        <method signature="TC006_EndToEnd.VerifyEndToEnd()[pri:1, instance:testCase.TC006_EndToEnd@5e8f9e2d]" name="VerifyEndToEnd" class="testCase.TC006_EndToEnd"/>
+      </group> <!-- master -->
     </groups>
-    <test started-at="2024-12-01T18:53:17 IST" name="Test" finished-at="2024-12-01T18:53:27 IST" duration-ms="9914">
-      <class name="testCase.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC002_LoginTest@38f116f6]" started-at="2024-12-01T18:53:17 IST" name="setup" finished-at="2024-12-01T18:53:21 IST" duration-ms="3526" status="PASS">
+    <test started-at="2024-12-01T21:39:13 IST" name="Test" finished-at="2024-12-01T21:40:17 IST" duration-ms="64104">
+      <class name="testCase.TC003_LoginTestWithDDTMethod">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_LoginTestWithDDTMethod@4602c2a9]" started-at="2024-12-01T21:39:32 IST" name="setup" finished-at="2024-12-01T21:39:35 IST" duration-ms="2023" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +29,203 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyLogin()[pri:1, instance:testCase.TC002_LoginTest@38f116f6]" started-at="2024-12-01T18:53:21 IST" name="VerifyLogin" finished-at="2024-12-01T18:53:26 IST" duration-ms="5185" status="PASS">
+        <test-method signature="LoginWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_LoginTestWithDDTMethod@4602c2a9]" started-at="2024-12-01T21:39:35 IST" name="LoginWithDDT" data-provider="dataDDT" finished-at="2024-12-01T21:39:53 IST" duration-ms="17449" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kkkk@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123@abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.fail(AssertJUnit.java:70)
+at testCase.TC003_LoginTestWithDDTMethod.LoginWithDDT(TC003_LoginTestWithDDTMethod.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC002_LoginTest@38f116f6]" started-at="2024-12-01T18:53:26 IST" name="tearDown" finished-at="2024-12-01T18:53:27 IST" duration-ms="1163" status="PASS">
+        </test-method> <!-- LoginWithDDT -->
+        <test-method signature="LoginWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_LoginTestWithDDTMethod@4602c2a9]" started-at="2024-12-01T21:39:53 IST" name="LoginWithDDT" data-provider="dataDDT" finished-at="2024-12-01T21:39:56 IST" duration-ms="2692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rame@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithDDT -->
+        <test-method signature="LoginWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_LoginTestWithDDTMethod@4602c2a9]" started-at="2024-12-01T21:39:56 IST" name="LoginWithDDT" data-provider="dataDDT" finished-at="2024-12-01T21:40:13 IST" duration-ms="17161" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[log@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[098@onm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.fail(AssertJUnit.java:70)
+at testCase.TC003_LoginTestWithDDTMethod.LoginWithDDT(TC003_LoginTestWithDDTMethod.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithDDT -->
+        <test-method signature="LoginWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_LoginTestWithDDTMethod@4602c2a9]" started-at="2024-12-01T21:40:13 IST" name="LoginWithDDT" data-provider="dataDDT" finished-at="2024-12-01T21:40:16 IST" duration-ms="2541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mmmmm@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC003_LoginTestWithDDTMethod@4602c2a9]" started-at="2024-12-01T21:40:16 IST" name="tearDown" finished-at="2024-12-01T21:40:17 IST" duration-ms="1096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCase.TC002_LoginTest -->
+      </class> <!-- testCase.TC003_LoginTestWithDDTMethod -->
+      <class name="testCase.TC006_EndToEnd">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC006_EndToEnd@5e8f9e2d]" started-at="2024-12-01T21:39:13 IST" name="setup" finished-at="2024-12-01T21:39:16 IST" duration-ms="2737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyEndToEnd()[pri:1, instance:testCase.TC006_EndToEnd@5e8f9e2d]" started-at="2024-12-01T21:39:16 IST" name="VerifyEndToEnd" finished-at="2024-12-01T21:39:31 IST" duration-ms="15809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEndToEnd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC006_EndToEnd@5e8f9e2d]" started-at="2024-12-01T21:39:31 IST" name="tearDown" finished-at="2024-12-01T21:39:32 IST" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC006_EndToEnd -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

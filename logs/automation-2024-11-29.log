@@ -1,0 +1,59 @@
+20:04:55.924 [main] INFO  testCase.TC006_EndToEnd - Entered shopping page  successfully
+20:09:16.508 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium class\Workout\N1_Framework\master.xml
+
+20:09:17.135 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+20:09:17.202 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+20:09:22.671 [main] INFO  testCase.TC006_EndToEnd - Add to cart happened successfully
+20:09:24.731 [main] INFO  testCase.TC006_EndToEnd - Entered shopping page  successfully
+20:09:27.588 [main] INFO  testCase.TC006_EndToEnd - matched successfully
+20:10:15.387 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium class\Workout\N1_Framework\master.xml
+
+20:10:16.021 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+20:10:16.081 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+20:10:19.142 [main] INFO  testCase.TC006_EndToEnd - ***TC006_EndToEnd - started***
+20:10:26.741 [main] INFO  testCase.TC006_EndToEnd - Registered successfully
+20:10:27.294 [main] INFO  testCase.TC006_EndToEnd - logged out successfully
+20:10:31.268 [main] INFO  testCase.TC006_EndToEnd - logged in successfully
+20:10:33.365 [main] INFO  testCase.TC006_EndToEnd - Add to cart happened successfully
+20:10:35.693 [main] INFO  testCase.TC006_EndToEnd - Entered shopping page  successfully
+20:10:38.606 [main] INFO  testCase.TC006_EndToEnd - matched successfully
+20:13:41.991 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium class\Workout\N1_Framework\master.xml
+
+20:13:42.618 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+20:13:42.679 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+20:13:46.264 [main] INFO  testCase.TC006_EndToEnd - ***TC006_EndToEnd - started***
+20:13:53.576 [main] INFO  testCase.TC006_EndToEnd - Registered successfully
+20:13:54.090 [main] INFO  testCase.TC006_EndToEnd - logged out successfully
+20:13:57.870 [main] INFO  testCase.TC006_EndToEnd - logged in successfully
+20:14:00.040 [main] INFO  testCase.TC006_EndToEnd - Add to cart happened successfully
+20:14:02.228 [main] INFO  testCase.TC006_EndToEnd - Entered shopping page  successfully
+20:14:05.177 [main] INFO  testCase.TC006_EndToEnd - matched successfully
+21:47:56.331 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium class\Workout\N1_Framework\A15_Grouping.xml
+
+21:53:20.039 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium class\Workout\N1_Framework\A15_Grouping.xml
+
+21:56:32.829 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium class\Workout\N1_Framework\A15_Grouping.xml
+
+21:59:41.907 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium class\Workout\N1_Framework\A15_Grouping.xml
+
+21:59:43.768 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+21:59:43.831 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+21:59:47.825 [main] INFO  testCase.TC001_AccountRegistration - ****TC001_AccountRegistration - Started****
+21:59:48.978 [main] INFO  testCase.TC001_AccountRegistration - Moved to login page
+21:59:51.436 [main] INFO  testCase.TC001_AccountRegistration - Datas are passed to the respective filed
+21:59:54.393 [main] INFO  testCase.TC001_AccountRegistration - Registered successfully
+21:59:54.393 [main] INFO  testCase.TC001_AccountRegistration - ****TC001_AccountRegistration - ended****
+21:59:55.738 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+21:59:55.796 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+21:59:58.525 [main] INFO  testCase.TC002_LoginTest - ***TC002_LoginTest - started***
+22:00:00.033 [main] INFO  testCase.TC002_LoginTest - Entered into login page
+22:00:02.522 [main] INFO  testCase.TC002_LoginTest - Logged in successfully
+22:00:05.703 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+22:00:05.759 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vishv\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
